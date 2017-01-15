@@ -10,6 +10,8 @@ govendor fetch github.com/spf13/cobra/cobra
 # Run Cobra
 go run vendor/github.com/spf13/cobra/cobra/main.go init
 go run vendor/github.com/spf13/cobra/cobra/main.go add start
+go run vendor/github.com/spf13/cobra/cobra/main.go add freefall
+# Make freefall a child of start
 
 # Create a bin directory
 mkdir bin

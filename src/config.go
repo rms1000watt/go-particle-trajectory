@@ -1,5 +1,6 @@
 package src
 
 type Config struct {
-	Verbose bool
+	Verbose    bool
+	Iterations int
 }
